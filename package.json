@@ -1,0 +1,36 @@
+{
+	"name": "all-countries-states-cities",
+	"author": "Doctor Code",
+	"version": "1.0.0",
+	"description": "Library for fetching all Countries States and Cities with typescript support and pagination",
+	"main": "dist/index.js",
+	"types": "dist/index.d.ts",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/natysoz/all-countries-states-cities.git"
+	},
+	"homepage": "https://github.com/natysoz/all-countries-states-cities",
+	"type": "module",
+	"files": [
+		"dist/",
+		"package.json"
+	],
+	"license": "ISC",
+	"scripts": {
+		"build": "tsc --build --clean && tsc --removeComments && tsc --emitDeclarationOnly",
+		"test": "node ./performance.js"
+	},
+	"devDependencies": {
+		"typescript": "^5.6.3"
+	},
+	"engines": {
+		"node": ">=20.16.0"
+	},
+	"keywords": [
+		"countries",
+		"states",
+		"cities",
+		"pagination",
+		"lazy loading"
+	]
+}
