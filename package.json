@@ -1,7 +1,7 @@
 {
-	"name": "all-countries-states-cities",
+	"name": "full-countries-states-cities",
 	"author": "Doctor Code",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Library for fetching all Countries States and Cities with typescript support and pagination",
 	"main": "dist/index.js",
 	"types": "dist/index.d.ts",
